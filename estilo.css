@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: "Open Sans", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1280px;
+}
+header {
+    height: 122px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+}
+ul {
+    padding: 10px;
+    list-style: none;
+}
+#navegacao li{
+    padding: 10px;
+}
+#navegacao li a{
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #777777;
+}
+h1 {
+    margin: 30px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+    text-align: center;
+    color: #000000;
+}
+section#fotoseuestilo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section img#photo1 {
+    width: 400px;
+    height: 600px;
+}
+section img#photo2 {
+    width: 600px;
+    height: 757.94px;
+}
+#ofertas {
+    margin: 207px 0px 180px 0px;
+    width: 100%;
+    height: 662px;
+    background: #C2185B;
+}
+h2 {
+    padding: 61px 546px 0px 546px;
+    height: 60px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.calcadosoff {
+    width: 260px;
+    height: 388px;
+}
+#fotosofertas {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 130px 84px 99px 102px;
+}
+.modelo-oferta {
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 260px;
+    height: 88px;
+    background: #FFFFFF;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.modelo-oferta p {
+    padding-top: 10px;
+}
+#sandalia {
+    padding: 0px 107px 20px 127px;
+    width: 100%;
+    height: 939;
+    display: flex;
+    align-items: flex-end;
+}
+#sandalia h3 {
+    width: 513px;
+    height: 144px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 53px;
+    color: #000000;
+}
+#botao-verdetalhes {
+    width: 403px;
+    height: 99px;
+    background: #C2185B;
+}
+#botao-verdetalhes h5 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+.detalhes-img1 {
+    width: 513px;
+    height: 663px;
+}
+.detalhes-img2 {
+}
+#detalhesfoto {
+    width: 507px;
+    height: 939px;
+}
+#detalhesfoto img{
+    padding-right: 105px;
+}
+#detalhes-sandalia {
+    display: grid;
+}
+#detalhes-sandalia img{
+    padding: 53px 28px 0px 0px;
+}
+#detalhes-sandalia button{
+}
+footer {
+    margin-top: 116px;
+    width: 1280px;
+    height: 248px;
+    background: #C2185B;
+}
+#logo-footer {
+    padding: 19px 920px 38px 127px;
+    display: flex;
+}
+#categorias {
+    width: 1280;
+    padding-right: 165px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+#categorias li a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;   
+}
+#institucional {
+    width: 246px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+#institucional li a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;   
+}
+#logo-footer img {
+    height: 100px;
+}
+#logo-footer p {
+    width: 255px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+footer ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+#link-rodape {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 300px;
+}
+#rodape {
+    display: flex;
+}
